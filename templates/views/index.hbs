@@ -1,0 +1,26 @@
+<!Doctype html>
+<html>
+<head>
+	<title>Home</title>
+	<link rel="icon" href="/img/apple-touch-icon.png"></link>
+	<link rel='stylesheet' href='/css/styles.css'></link>
+</head>
+<body>
+	<div class="main-content">
+		{{>header}}
+
+		<p>
+			*Please note that the duplicated lines are having the same heading numbers. That is because the data is from normal.csv file and that is what in the file.
+		</p>
+
+		<h2>Duplicates:</h2>
+		{{{duplicates}}}
+		<h2>Non Duplicates:</h2>
+		{{{nonduplicates}}}
+	</div>
+
+	{{>footer}}
+
+</body>
+</html>
+
