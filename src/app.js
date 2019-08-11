@@ -65,7 +65,7 @@ if(allRecords.length>1){
 			const threshold = 0.618;
 			if(similarity > threshold){
 				const similarDetails = {
-					originalRecord: allRecords[pointer],
+					comparisonRecord: allRecords[pointer],
 					similarRecord:  allRecords[j],
 					similarity: similarity.toFixed(3)
 				}
@@ -92,16 +92,19 @@ if(allRecords.length>1){
 		pointer++;
 	});
 
-	// use stdio to out put the data as required
-	console.log(JSON.stringify(duplicates));
-	console.log(JSON.stringify(nonDuplicates));
+	// Print the duplicates and non duplicates in json format to stdout
+	fs.writeFile('../public/duplicates.json', JSON.stringify(duplicates, null, 4));
+	console.log("All duplicates\n", JSON.stringify(duplicates, null, 4), "\n\n");
+
+	fs.writeFile('../public/nonduplicates.json', JSON.stringify(nonDuplicates, null, 4));
+	console.log("All Non duplicates\n", JSON.stringify(nonDuplicates, null, 4), "\n\n");
 }
 	
 app.get('', (req, res)=>{
 	AllDuplicates = "<ul>";
 
 	duplicates.forEach(elem=>{
-		AllDuplicates += `<li> ${elem.originalRecord}<br/>With similarity of ${elem.similarity} to, <br/>${elem.similarRecord}<br/><br/> </li>`;
+		AllDuplicates += `<li> ${elem.comparisonRecord}<br/>With similarity of ${elem.similarity} to, <br/>${elem.similarRecord}<br/><br/> </li>`;
 	});
 	AllDuplicates += "</ul>";
 

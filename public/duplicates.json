@@ -1,0 +1,42 @@
+[
+    {
+        "comparisonRecord": "4,Kale,Gipp,Klein Group,kgipp3@360.cn,4985 Menomonie Drive,,94975,Petaluma,California,CA,707-840-2551",
+        "similarRecord": "4,Kale,Gipp,The Klein Group,kgipp3@360.cn,4985 Menomonie Drive,,94975,Petaluma,California,CA,707-840-2551",
+        "similarity": "0.974"
+    },
+    {
+        "comparisonRecord": "11,Barney,Parncutt,\"Collier, Grady and Huels\",bparncutta@ezinearticles.com,07700 Rutledge Court,,11205,Brooklyn,New York,NY,718-430-6357",
+        "similarRecord": "11,Barny,Parncutt,\"Collier, Grady and Huels\",bparncutta@ezinearticles.com,07700 Rutledge Court,,11205,Brooklyn,New York,NY,718-430-6357",
+        "similarity": "0.988"
+    },
+    {
+        "comparisonRecord": "15,Jacquelyn,Ilchenko,Goodwin Inc,jilchenkoe@wisc.edu,9160 Cherokee Avenue,,18763,Wilkes Barre,Pennsylvania,PA,570-384-8352",
+        "similarRecord": "15,Jacqueline,Ilchenko,Goodwin Inc,jilchenkoe@wisc.edu,9160 Cherokee Avenue,,18763,Wilkes Barre,Pennsylvania,PA,570-384-8352",
+        "similarity": "0.970"
+    },
+    {
+        "comparisonRecord": "19,Rouvin,Leacock,Monahan and Sons,rleacocki@dailymotion.com,02254 Delladonna Road,Apt 3,39534,Biloxi,Mississippi,MS,228-265-4371",
+        "similarRecord": "19,Rouvin,Leacock,Monahan and Sons,rleacocki@dailymotion.com,02254 Delladonna Road,,39534,Biloxi,Mississippi,MS,228-265-4371",
+        "similarity": "0.975"
+    },
+    {
+        "comparisonRecord": "38,Gunther,Bonas,\"D'Amore, Fadel and Welch\",gbonas11@tripod.com,1487 American Parkway,Apt 1,92519,Riverside,California,CA,951-933-6645",
+        "similarRecord": "38,Gunther,Bonas,\"D'Amore, Fadel and Welch\",gbonas11@tripod.com,1487 American Parkway,Apt 1,92519,Riverside,California,CA,951-933-6645",
+        "similarity": "1.000"
+    },
+    {
+        "comparisonRecord": "54,Leonard,Colclough,Hartmann and Sons,lcolclough1h@arizona.edu,73 Melby Center,,45490,Dayton,Ohio,OH,937-521-2116",
+        "similarRecord": "54,Leonard,Colclough,Hartmann and Sohns,lcolclough1h@arizona.edu,73 Melby Center,,45490,Dayton,Ohio,OH,937-521-2116",
+        "similarity": "0.986"
+    },
+    {
+        "comparisonRecord": "66,Stanfield,Rown,Reilly-Champlin,srown1t@loc.gov,3460 Luster Junction,,77005,Houston,Texas,TX,214-693-5061",
+        "similarRecord": "66,Stanfield,Rown,Reilly-Champlin Company,srown1t@loc.gov,,,,,,,214-693-5061",
+        "similarity": "0.674"
+    },
+    {
+        "comparisonRecord": "96,Thekla,Salman,Google,tsalman2n@histats.com,7462 Schiller Court,,91210,Glendale,California,CA,818-448-0548",
+        "similarRecord": "96,Thekla,Salman,Morissette-Rice,tsalman2n@histats.com,7462 Schiller Court,,91210,Glendale,California,CA,818-232-2323",
+        "similarity": "0.826"
+    }
+]
