@@ -1,0 +1,32 @@
+To debug it: node --inspect-brk=your.ip.address.here app.js
+Then in chrome browser: chrome://inspect, but please add your.ip.address.here as new device for the first time
+
+To run this program.
+
+1). npm install (this is require only at the first time);
+2). node app.js (or use nodemon app.js while developing)
+
+Git commands:
+
+To download/clone it to your machine:
+git clone https://github.com/engp8691/validity
+npm install
+node app.js
+
+To commit/push codes to the repository
+git init
+git remote add origin https://github.com/engp8691/validity.git
+git clone https://github.com/engp8691/validity
+git add .
+git status
+git commit -m "for reviewing"
+git push -u origin master
+
+# This is not deployed to heroku because I do not have anough space on Heroku
+ssh -T git@github.com
+git remote set-url origin git@github.com:engp8691/validity.git
+git status
+git add .
+git commit -m "Deploy to Heroku"
+git push
+
